@@ -1,0 +1,330 @@
+{
+  "source_path": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/dialogue-first10.wav",
+  "source_sha256": "a7604034eb8c7b436560c8b111b16b2b21ed10047d12ab2bfd2481093bd6985e",
+  "source_duration": 10.01,
+  "clock": "CURRENT native trailer output, zero-based seconds",
+  "method": "fresh local Whisper large-v3-turbo word timestamp ASR, with independent base.en pass and base.en crop checks",
+  "timing_status": "ASR estimates; nearest-frame quantization does not establish frame-level auditory accuracy",
+  "fps_numerator": 60000,
+  "fps_denominator": 1001,
+  "frame_rounding": "nearest",
+  "text": "No one model had ever really passed the CAD bench until Astra just blew it away. So prompt engineering still plays a role, you say? Definitely.",
+  "words": [
+    {
+      "word": "No",
+      "start_seconds_asr": 0.0,
+      "end_seconds_asr": 0.2,
+      "onset_frame_59_94": 0,
+      "onset_seconds_framegrid": 0.0,
+      "probability": 0.7435111403465271,
+      "base_check_start_seconds": 0.0,
+      "base_check_word": "No"
+    },
+    {
+      "word": "one",
+      "start_seconds_asr": 0.2,
+      "end_seconds_asr": 0.46,
+      "onset_frame_59_94": 12,
+      "onset_seconds_framegrid": 0.20020000000000002,
+      "probability": 0.9866067171096802,
+      "base_check_start_seconds": 0.16,
+      "base_check_word": "one"
+    },
+    {
+      "word": "model",
+      "start_seconds_asr": 0.46,
+      "end_seconds_asr": 0.76,
+      "onset_frame_59_94": 28,
+      "onset_seconds_framegrid": 0.46713333333333334,
+      "probability": 0.9892187714576721,
+      "base_check_start_seconds": 0.4,
+      "base_check_word": "model"
+    },
+    {
+      "word": "had",
+      "start_seconds_asr": 0.76,
+      "end_seconds_asr": 0.92,
+      "onset_frame_59_94": 46,
+      "onset_seconds_framegrid": 0.7674333333333333,
+      "probability": 0.9797524213790894,
+      "base_check_start_seconds": 0.62,
+      "base_check_word": "had"
+    },
+    {
+      "word": "ever",
+      "start_seconds_asr": 0.92,
+      "end_seconds_asr": 1.12,
+      "onset_frame_59_94": 55,
+      "onset_seconds_framegrid": 0.9175833333333333,
+      "probability": 0.9177898168563843,
+      "base_check_start_seconds": 0.9,
+      "base_check_word": "ever"
+    },
+    {
+      "word": "really",
+      "start_seconds_asr": 1.12,
+      "end_seconds_asr": 1.42,
+      "onset_frame_59_94": 67,
+      "onset_seconds_framegrid": 1.1177833333333334,
+      "probability": 0.9902229309082031,
+      "base_check_start_seconds": 1.12,
+      "base_check_word": "really"
+    },
+    {
+      "word": "passed",
+      "start_seconds_asr": 1.42,
+      "end_seconds_asr": 1.92,
+      "onset_frame_59_94": 85,
+      "onset_seconds_framegrid": 1.4180833333333334,
+      "probability": 0.9933672547340393,
+      "base_check_start_seconds": 1.42,
+      "base_check_word": "passed"
+    },
+    {
+      "word": "the",
+      "start_seconds_asr": 1.92,
+      "end_seconds_asr": 2.54,
+      "onset_frame_59_94": 115,
+      "onset_seconds_framegrid": 1.9185833333333333,
+      "probability": 0.9888947010040283,
+      "base_check_start_seconds": 1.78,
+      "base_check_word": "the"
+    },
+    {
+      "word": "CAD",
+      "start_seconds_asr": 2.54,
+      "end_seconds_asr": 2.74,
+      "onset_frame_59_94": 152,
+      "onset_seconds_framegrid": 2.5358666666666667,
+      "probability": 0.4528849720954895,
+      "base_check_start_seconds": 2.52,
+      "base_check_word": "CAD"
+    },
+    {
+      "word": "bench",
+      "start_seconds_asr": 2.74,
+      "end_seconds_asr": 3.1,
+      "onset_frame_59_94": 164,
+      "onset_seconds_framegrid": 2.736066666666667,
+      "probability": 0.7150617241859436,
+      "base_check_start_seconds": 2.7,
+      "base_check_word": "bench"
+    },
+    {
+      "word": "until",
+      "start_seconds_asr": 3.1,
+      "end_seconds_asr": 4.04,
+      "onset_frame_59_94": 186,
+      "onset_seconds_framegrid": 3.1031,
+      "probability": 0.8633067011833191,
+      "base_check_start_seconds": 2.94,
+      "base_check_word": "until"
+    },
+    {
+      "word": "Astra",
+      "start_seconds_asr": 4.04,
+      "end_seconds_asr": 5.12,
+      "onset_frame_59_94": 242,
+      "onset_seconds_framegrid": 4.037366666666666,
+      "probability": 0.9323946237564087,
+      "base_check_start_seconds": 4.1,
+      "base_check_word": "Astra"
+    },
+    {
+      "word": "just",
+      "start_seconds_asr": 5.12,
+      "end_seconds_asr": 5.7,
+      "onset_frame_59_94": 307,
+      "onset_seconds_framegrid": 5.121783333333333,
+      "probability": 0.9782856702804565,
+      "base_check_start_seconds": 5.14,
+      "base_check_word": "just"
+    },
+    {
+      "word": "blew",
+      "start_seconds_asr": 5.7,
+      "end_seconds_asr": 6.1,
+      "onset_frame_59_94": 342,
+      "onset_seconds_framegrid": 5.7057,
+      "probability": 0.998704195022583,
+      "base_check_start_seconds": 5.66,
+      "base_check_word": "blew"
+    },
+    {
+      "word": "it",
+      "start_seconds_asr": 6.1,
+      "end_seconds_asr": 6.26,
+      "onset_frame_59_94": 366,
+      "onset_seconds_framegrid": 6.1061000000000005,
+      "probability": 0.9984388947486877,
+      "base_check_start_seconds": 6.02,
+      "base_check_word": "it"
+    },
+    {
+      "word": "away.",
+      "start_seconds_asr": 6.26,
+      "end_seconds_asr": 6.5,
+      "onset_frame_59_94": 375,
+      "onset_seconds_framegrid": 6.2562500000000005,
+      "probability": 0.999568521976471,
+      "base_check_start_seconds": 6.24,
+      "base_check_word": "away."
+    },
+    {
+      "word": "So",
+      "start_seconds_asr": 7.0,
+      "end_seconds_asr": 7.1,
+      "onset_frame_59_94": 420,
+      "onset_seconds_framegrid": 7.007000000000001,
+      "probability": 0.8438801765441895,
+      "base_check_start_seconds": 6.92,
+      "base_check_word": "So"
+    },
+    {
+      "word": "prompt",
+      "start_seconds_asr": 7.1,
+      "end_seconds_asr": 7.34,
+      "onset_frame_59_94": 426,
+      "onset_seconds_framegrid": 7.1071,
+      "probability": 0.6331687569618225,
+      "base_check_start_seconds": 7.06,
+      "base_check_word": "Prompt"
+    },
+    {
+      "word": "engineering",
+      "start_seconds_asr": 7.34,
+      "end_seconds_asr": 7.74,
+      "onset_frame_59_94": 440,
+      "onset_seconds_framegrid": 7.3406666666666665,
+      "probability": 0.9945287108421326,
+      "base_check_start_seconds": 7.26,
+      "base_check_word": "engineering"
+    },
+    {
+      "word": "still",
+      "start_seconds_asr": 7.74,
+      "end_seconds_asr": 8.06,
+      "onset_frame_59_94": 464,
+      "onset_seconds_framegrid": 7.741066666666667,
+      "probability": 0.9946979284286499,
+      "base_check_start_seconds": 7.56,
+      "base_check_word": "still"
+    },
+    {
+      "word": "plays",
+      "start_seconds_asr": 8.06,
+      "end_seconds_asr": 8.38,
+      "onset_frame_59_94": 483,
+      "onset_seconds_framegrid": 8.05805,
+      "probability": 0.9965597987174988,
+      "base_check_start_seconds": 8.02,
+      "base_check_word": "plays"
+    },
+    {
+      "word": "a",
+      "start_seconds_asr": 8.38,
+      "end_seconds_asr": 8.5,
+      "onset_frame_59_94": 502,
+      "onset_seconds_framegrid": 8.375033333333333,
+      "probability": 0.9984741806983948,
+      "base_check_start_seconds": 8.34,
+      "base_check_word": "a"
+    },
+    {
+      "word": "role,",
+      "start_seconds_asr": 8.5,
+      "end_seconds_asr": 8.76,
+      "onset_frame_59_94": 509,
+      "onset_seconds_framegrid": 8.491816666666667,
+      "probability": 0.9975670576095581,
+      "base_check_start_seconds": 8.48,
+      "base_check_word": "role,"
+    },
+    {
+      "word": "you",
+      "start_seconds_asr": 8.94,
+      "end_seconds_asr": 9.04,
+      "onset_frame_59_94": 536,
+      "onset_seconds_framegrid": 8.942266666666667,
+      "probability": 0.8964153528213501,
+      "base_check_start_seconds": 8.98,
+      "base_check_word": "to"
+    },
+    {
+      "word": "say?",
+      "start_seconds_asr": 9.04,
+      "end_seconds_asr": 9.24,
+      "onset_frame_59_94": 542,
+      "onset_seconds_framegrid": 9.042366666666666,
+      "probability": 0.8649260997772217,
+      "base_check_start_seconds": 8.98,
+      "base_check_word": "say?"
+    },
+    {
+      "word": "Definitely.",
+      "start_seconds_asr": 9.38,
+      "end_seconds_asr": 9.58,
+      "onset_frame_59_94": 562,
+      "onset_seconds_framegrid": 9.376033333333334,
+      "probability": 0.9754493832588196,
+      "base_check_start_seconds": 9.34,
+      "base_check_word": "Definitely."
+    }
+  ],
+  "uncertainty_notes": [
+    "Models agree on substantive spoken text; base.en rendered you say as to say. Use the large-v3 text you say.",
+    "Word boundaries can absorb silence, especially the (1.92\u20132.54), until (3.10\u20134.04), and Astra (4.04\u20135.12). Preserve raw timings and verify those arrivals during playback.",
+    "Onsets of engineering/still differ by up to 0.18 seconds across models. Pilot playback is needed for a final frame-accurate decision.",
+    "The final Definitely begins about9.37\u20139.38s; hold the word to the end of the10s pilot. Do not infer absence of additional speech after9.58s from ASR, since the export endsmidconversation."
+  ],
+  "phrase_layouts": [
+    {
+      "range": [
+        0,
+        3.3
+      ],
+      "lines": [
+        "NO ONE MODEL",
+        "had ever really",
+        "PASSED THE",
+        "CAD BENCH"
+      ],
+      "emphasis": "CAD BENCH on orange plate; support smaller; words remain in fixed finalpositions"
+    },
+    {
+      "range": [
+        3.3,
+        6.74
+      ],
+      "lines": [
+        "until",
+        "ASTRA",
+        "just BLEW IT AWAY"
+      ],
+      "emphasis": "ASTRA white large; restrained underline on BLEW IT AWAY optional"
+    },
+    {
+      "range": [
+        6.94,
+        9.28
+      ],
+      "lines": [
+        "So prompt",
+        "ENGINEERING",
+        "still plays a role,",
+        "you say?"
+      ],
+      "emphasis": "ENGINEERING is larger; alternate use orange on ROLE if orange was alreadyused heavily"
+    },
+    {
+      "range": [
+        9.38,
+        10.01
+      ],
+      "lines": [
+        "DEFINITELY."
+      ],
+      "emphasis": "single emphatic answer; hold throughpilotend"
+    }
+  ]
+}

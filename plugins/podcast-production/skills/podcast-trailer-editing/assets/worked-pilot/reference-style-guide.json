@@ -1,0 +1,90 @@
+{
+  "provenance": "Direct FFmpeg frame inspection of user-supplied videos; proposed values distinguished from measured observations.",
+  "nvidia": {
+    "path": "/Users/hendrikkrack/Downloads/NVIDIA-Podcast-Trailer.mp4",
+    "width": 3840,
+    "height": 2160,
+    "fps": "30000/1001",
+    "duration_seconds": 65.9659,
+    "coverage_seconds": [
+      0,
+      60
+    ],
+    "observed_word_motion": "effectively hard reveal; prior words hold fixed positions",
+    "observed_layout": "stacked phrase build and hold, mainly lower-middle with occasional left alignment",
+    "observed_orange_rgb": [
+      253,
+      86,
+      8
+    ],
+    "observed_orange_plate_1080p": {
+      "x": 578,
+      "y": 660,
+      "width": 764,
+      "height": 147
+    },
+    "observed_cap_height_1080p": {
+      "keyword": 85,
+      "connector": 44
+    },
+    "underline_observed": false
+  },
+  "merge": {
+    "path": "/Users/hendrikkrack/Downloads/Merge - Episode 3 trailer v02.mp4",
+    "width": 960,
+    "height": 540,
+    "fps": "30000/1001",
+    "duration_seconds": 72.672604,
+    "coverage_seconds": [
+      0,
+      72.67
+    ],
+    "dialogue_kinetic_type_observed": false,
+    "usable_reference": "camera pacing, conversational feel, end-card branding"
+  },
+  "pilot_recommendation": {
+    "canvas": [
+      3840,
+      2160
+    ],
+    "primary_font": "Plus Jakarta Sans SemiBold",
+    "secondary_font": "IBM Plex Mono",
+    "brand_orange_default": "#FF570A",
+    "keyword_font_px": [
+      180,
+      240
+    ],
+    "secondary_font_px": [
+      110,
+      150
+    ],
+    "connector_font_px": [
+      76,
+      100
+    ],
+    "left_margin_fraction": [
+      0.07,
+      0.09
+    ],
+    "maximum_block_width_with_rabbit_fraction": [
+      0.55,
+      0.6
+    ],
+    "entrance": "onset hard reveal, optionally restrained 2\u20133 frame settle",
+    "optional_scale_range": [
+      96,
+      100
+    ],
+    "optional_underline_duration_frames_59_94": [
+      4,
+      6
+    ],
+    "phrase_exit_frames_59_94": [
+      2,
+      4
+    ],
+    "timing": "actual word onsets from current edited audio, quantized to current sequence frame grid",
+    "stable_layout": true,
+    "one_semantic_emphasis_per_thought": true
+  }
+}

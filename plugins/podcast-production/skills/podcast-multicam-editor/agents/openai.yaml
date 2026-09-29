@@ -1,0 +1,5 @@
+interface:
+  display_name: "Podcast Multicam Editor"
+  short_description: "Edit multicam podcasts and trailers in Premiere"
+  brand_color: "#FF5A3C"
+  default_prompt: "Use $podcast-multicam-editor to turn synced podcast camera and isolated audio files into a polished, editable Premiere sequence."

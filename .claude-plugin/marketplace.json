@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hendrik-skills",
+  "description": "Agent skills by Hendrik: web typography review, and a podcast production suite for Adobe Premiere Pro and After Effects.",
+  "owner": {
+    "name": "Hendrik (hendrik-devRel)"
+  },
+  "plugins": [
+    {
+      "name": "better-typography",
+      "description": "Web typography from choosing fonts to spacing, wrapping and accessibility. Reviews frontend code for type scale, heading hierarchy, line-height, letter-spacing, measure, wrapping, truncation, underlines, tabular numbers, variable fonts and OpenType features, and expresses every fix in the project's own styling system.",
+      "author": {
+        "name": "Hendrik (hendrik-devRel)"
+      },
+      "category": "design",
+      "source": "./plugins/better-typography",
+      "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/better-typography"
+    },
+    {
+      "name": "podcast-production",
+      "description": "Eight skills for producing multicamera podcasts in Adobe Premiere Pro and After Effects: full-episode editing, config-driven multicam XML builds, opening trailers with kinetic typography, standalone Shorts, product-story interview cuts, speech audio restoration, and connection guides for the Premiere Pro and After Effects MCP servers.",
+      "author": {
+        "name": "Hendrik (hendrik-devRel)"
+      },
+      "category": "productivity",
+      "source": "./plugins/podcast-production",
+      "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/podcast-production"
+    }
+  ]
+}

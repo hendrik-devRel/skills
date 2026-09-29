@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-14",
+  "compiler": {
+    "pilot_words": 26,
+    "shapes": 4,
+    "prepare_operations": 123,
+    "layout_operations": 84,
+    "catalog_parameter_validation": "PASS against read-only installed ae_catalog categories",
+    "regression_tests": 6,
+    "regression_status": "PASS",
+    "native_execution": "NOT RUN for new compiler; no Adobe mutations during helper work"
+  },
+  "audio": {
+    "original_ae_raw_lag_samples": 1024,
+    "delivered_preview_lag_samples": 0,
+    "fresh_replacement": "rebuilt-preview-v3.mp4",
+    "fresh_replacement_qa": "PASS_ZERO_LAG in all 6 windows; compressed video payload hash unchanged"
+  },
+  "forward_check_fixes": [
+    "Bind normalization to prepare plan signature",
+    "Reject any failed/skipped/warned preparation operation",
+    "Reject duplicate/clustered windows",
+    "Reject duration mismatch",
+    "Reject audio/picture start timestamp mismatch"
+  ],
+  "independent_forward_check": "Confirmed all reproduced cases now reject and real preview/replacement still pass."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Shorts Editing"
+  short_description: "Turn podcast passages into editable, compelling social Shorts"
+  default_prompt: "Use $podcast-shorts-editing to select complete ideas from this podcast and build a portfolio of speech-timed, editable social Shorts."

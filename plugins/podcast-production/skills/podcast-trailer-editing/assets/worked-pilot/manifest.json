@@ -1,0 +1,92 @@
+[
+  {
+    "file": "AF-Kinetic-Pilot-v01.aep",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/AF-Kinetic-Pilot-v01.aep",
+    "bytes": 790355,
+    "sha256": "f0fb77fde26791ca8938af6fcbb03b67f5b7d5c4c6793aae775f5163c8f622de"
+  },
+  {
+    "file": "AF-Kinetic-Pilot-v01-PREVIEW.mp4",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/AF-Kinetic-Pilot-v01-PREVIEW.mp4",
+    "bytes": 18721335,
+    "sha256": "5466414c3408f48ae022b958426f4e6e2e437ce87d06ed1bd7cb0d45e2d77038"
+  },
+  {
+    "file": "pilot-background.mp4",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/pilot-background.mp4",
+    "bytes": 25264537,
+    "sha256": "3e6f4be28c714321f126bc41323de63b95ed2fe0ecaa1c05d0e1d5122789519a"
+  },
+  {
+    "file": "dialogue-first10.wav",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/dialogue-first10.wav",
+    "bytes": 1929880,
+    "sha256": "a7604034eb8c7b436560c8b111b16b2b21ed10047d12ab2bfd2481093bd6985e"
+  },
+  {
+    "file": "review-cad.png",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/review-cad.png",
+    "bytes": 2695321,
+    "sha256": "0dafb87535b4799d165f47a45b8dfaaf76fa8388b7db829f85ae8c5eb91cabc3"
+  },
+  {
+    "file": "review-astra.png",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/review-astra.png",
+    "bytes": 1838487,
+    "sha256": "719529d3b0c4635cb9207fa6b32932d025f42a57a1b220c8dfd6c8e22b64a2c7"
+  },
+  {
+    "file": "review-prompting.png",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/review-prompting.png",
+    "bytes": 2360795,
+    "sha256": "a40d1885aa9fb5dc9592e018097e22b282dfcceb100f3745a41ad457dcb0c393"
+  },
+  {
+    "file": "layout-spec.json",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/layout-spec.json",
+    "bytes": 5792,
+    "sha256": "948db08bbe4229433ac1769d55c33a326f94168d85c20cf7dfa5f5c21daddef2"
+  },
+  {
+    "file": "pilot-word-timings.json",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/pilot-word-timings.json",
+    "bytes": 10171,
+    "sha256": "093076972d8a5e9f80f294069eeb6816f70ace8d8b7d67aed64036f7c8f6f81e"
+  },
+  {
+    "file": "reference-style-guide.json",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/reference-style-guide.json",
+    "bytes": 2199,
+    "sha256": "88aae4cf4043fabc18f238e54f25cbe91748e18ee5f2a91572d00cc4ac6c91cc"
+  },
+  {
+    "file": "pilot-alpha-qa.json",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/pilot-alpha-qa.json",
+    "bytes": 171960,
+    "sha256": "674fcb14fab311d5909fcb10d5b12b5e604ddddbf8b3c14bcc179117ae641010"
+  },
+  {
+    "file": "pilot-preview-audio-synced-qa.json",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/pilot-preview-audio-synced-qa.json",
+    "bytes": 980,
+    "sha256": "f9dda947a9c2275c1fa53509df2abd66bf945c644b63890e6ecbafc64ff01fec"
+  },
+  {
+    "file": "reference-style-guide.md",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/reference-style-guide.md",
+    "bytes": 6741,
+    "sha256": "f5a582ab434ae5e3759c4a743aeb58a44e75c56dc65ee918e46eb1bd1268b37b"
+  },
+  {
+    "file": "qa-summary.md",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/qa-summary.md",
+    "bytes": 4725,
+    "sha256": "2dcbf12f11fb7d39a7663b8b5113b351f9b7abc98426c0efa93cf70629394476"
+  },
+  {
+    "file": "pilot-word-onset-recommendations.md",
+    "source": "/Users/hendrikkrack/Documents/recording-studio/outputs/astra-fable-first-edit/trailer-analysis/kinetic-pilot/references/pilot-word-onset-recommendations.md",
+    "bytes": 1616,
+    "sha256": "7798a45f213e18bf352f350dd9c827afdde3261b30191d62b3741f47a5b6a2ca"
+  }
+]

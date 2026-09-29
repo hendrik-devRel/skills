@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "comp": "AF • Kinetic compiler example • NEW UNIQUE NAME",
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "duration_frames": 600,
+  "canvas": {
+    "width": 3840,
+    "height": 2160
+  },
+  "lines": [
+    {
+      "left": 280,
+      "baseline": 1480,
+      "font_size": 116,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 32.480000000000004,
+      "end": "3.1",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "01 • 01 • No",
+          "text": "No",
+          "onset": "0"
+        },
+        {
+          "name": "01 • 02 • one",
+          "text": "one",
+          "onset": "0.2"
+        },
+        {
+          "name": "01 • 03 • model",
+          "text": "model",
+          "onset": "0.46"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1608,
+      "font_size": 88,
+      "font": "IBMPlexMono",
+      "gap_px": 52.8,
+      "end": "3.1",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "01 • 04 • had",
+          "text": "had",
+          "onset": "0.76"
+        },
+        {
+          "name": "01 • 05 • ever",
+          "text": "ever",
+          "onset": "0.92"
+        },
+        {
+          "name": "01 • 06 • really",
+          "text": "really",
+          "onset": "1.12"
+        }
+      ]
+    },
+    {
+      "left": 280,
+      "baseline": 1775,
+      "font_size": 164,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 45.92,
+      "end": "3.1",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "01 • 07 • passed",
+          "text": "passed",
+          "onset": "1.42"
+        },
+        {
+          "name": "01 • 08 • the",
+          "text": "the",
+          "onset": "1.92"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1990,
+      "font_size": 210,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 58.800000000000004,
+      "end": "3.1",
+      "stroke_width": 0,
+      "words": [
+        {
+          "name": "01 • 09 • CAD",
+          "text": "CAD",
+          "onset": "2.54"
+        },
+        {
+          "name": "01 • 10 • BENCH",
+          "text": "BENCH",
+          "onset": "2.74"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1510,
+      "font_size": 96,
+      "font": "IBMPlexMono",
+      "gap_px": 57.599999999999994,
+      "end": "6.85685",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "02 • 11 • until",
+          "text": "until",
+          "onset": "3.1"
+        }
+      ]
+    },
+    {
+      "left": 280,
+      "baseline": 1790,
+      "font_size": 258,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 72.24000000000001,
+      "end": "6.85685",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "02 • 12 • ASTRA",
+          "text": "ASTRA",
+          "onset": "4.04"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1990,
+      "font_size": 124,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 34.720000000000006,
+      "end": "6.85685",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "02 • 13 • just",
+          "text": "just",
+          "onset": "5.12"
+        },
+        {
+          "name": "02 • 14 • blew",
+          "text": "blew",
+          "onset": "5.7"
+        },
+        {
+          "name": "02 • 15 • it",
+          "text": "it",
+          "onset": "6.1"
+        },
+        {
+          "name": "02 • 16 • away.",
+          "text": "away.",
+          "onset": "6.26"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1460,
+      "font_size": 112,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 31.360000000000003,
+      "end": "9.3760333333",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "03 • 17 • So",
+          "text": "So",
+          "onset": "7"
+        },
+        {
+          "name": "03 • 18 • prompt",
+          "text": "prompt",
+          "onset": "7.1"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1670,
+      "font_size": 198,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 55.440000000000005,
+      "end": "9.3760333333",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "03 • 19 • ENGINEERING",
+          "text": "ENGINEERING",
+          "onset": "7.34"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1840,
+      "font_size": 98,
+      "font": "IBMPlexMono",
+      "gap_px": 58.8,
+      "end": "9.3760333333",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "03 • 20 • still",
+          "text": "still",
+          "onset": "7.74"
+        },
+        {
+          "name": "03 • 21 • plays",
+          "text": "plays",
+          "onset": "8.06"
+        },
+        {
+          "name": "03 • 22 • a",
+          "text": "a",
+          "onset": "8.38"
+        },
+        {
+          "name": "03 • 23 • role,",
+          "text": "role,",
+          "onset": "8.5"
+        }
+      ]
+    },
+    {
+      "left": 280,
+      "baseline": 2000,
+      "font_size": 120,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 33.6,
+      "end": "9.3760333333",
+      "stroke_width": 3,
+      "words": [
+        {
+          "name": "03 • 24 • you",
+          "text": "you",
+          "onset": "8.94"
+        },
+        {
+          "name": "03 • 25 • say?",
+          "text": "say?",
+          "onset": "9.04"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    },
+    {
+      "left": 280,
+      "baseline": 1950,
+      "font_size": 202,
+      "font": "PlusJakartaSans-SemiBold",
+      "gap_px": 56.56,
+      "end": "10.01",
+      "stroke_width": 0,
+      "words": [
+        {
+          "name": "04 • 26 • Definitely.",
+          "text": "Definitely.",
+          "onset": "9.38"
+        }
+      ],
+      "font_axes": {
+        "wght": 600
+      }
+    }
+  ],
+  "shapes": [
+    {
+      "name": "01 • CAD plate",
+      "kind": "plate",
+      "position": [
+        256,
+        1810
+      ],
+      "size": [
+        511.679992675781,
+        224
+      ],
+      "onset": "2.54",
+      "end": "3.1"
+    },
+    {
+      "name": "01 • CAD BENCH plate",
+      "kind": "plate",
+      "position": [
+        256,
+        1810
+      ],
+      "size": [
+        1313.879956054687,
+        224
+      ],
+      "onset": "2.74",
+      "end": "3.1"
+    },
+    {
+      "name": "02 • ASTRA underline",
+      "kind": "underline",
+      "position": [
+        280,
+        1830
+      ],
+      "size": [
+        827.406005859375,
+        10
+      ],
+      "onset": "4.04",
+      "end": "6.85685",
+      "width_keys": [
+        {
+          "time": {
+            "frame": 242
+          },
+          "width": 0
+        },
+        {
+          "time": {
+            "frame": 247
+          },
+          "width": 827.406005859375
+        }
+      ]
+    },
+    {
+      "name": "04 • Definitely plate",
+      "kind": "plate",
+      "position": [
+        256,
+        1776
+      ],
+      "size": [
+        1055.900024414062,
+        228
+      ],
+      "onset": "9.38",
+      "end": "10.01"
+    }
+  ],
+  "provenance": "26 words and geometry from 2026-09-14 approved pilot layout-spec and executed shape operations. New typography comp only; no cameras or audio included."
+}

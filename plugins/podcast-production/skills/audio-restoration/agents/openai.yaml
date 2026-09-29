@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audio Restoration"
+  short_description: "Repair clicks, electrical buzz, and hiss in speech"
+  default_prompt: "Use $audio-restoration to clean interference from these recordings and create matched before-and-after previews."

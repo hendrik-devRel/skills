@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "example_note": "Historical 2026-09-14 continuation only. Derive shot rectangles and frame ranges from current footage before reuse.",
+  "fps": {"num": 60000, "den": 1001},
+  "size": [3840, 2160],
+  "decode_size": [960, 540],
+  "tolerance_pixels": 4,
+  "global_start_frame": 600,
+  "global_end_frame_exclusive": 2771,
+  "zones": {
+    "host_right": [2496, 367, 3610, 1620],
+    "guest_left": [192, 389, 1536, 1598],
+    "wide_upper_center": [1498, 130, 2458, 626]
+  },
+  "shots": [
+    {"start_frame": 600, "end_frame_exclusive": 1073, "zone": "host_right"},
+    {"start_frame": 1073, "end_frame_exclusive": 1804, "zone": "guest_left"},
+    {"start_frame": 1804, "end_frame_exclusive": 1943, "zone": "wide_upper_center"},
+    {"start_frame": 1943, "end_frame_exclusive": 2161, "zone": "host_right"},
+    {"start_frame": 2161, "end_frame_exclusive": 2257, "zone": "wide_upper_center"},
+    {"start_frame": 2257, "end_frame_exclusive": 2771, "zone": "host_right"}
+  ]
+}

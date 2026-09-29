@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Trailer Editing"
+  short_description: "Create trailers with editable, speech-timed text"
+  default_prompt: "Use $podcast-trailer-editing to create a compelling trailer or a short kinetic-text pilot from my current podcast edit."

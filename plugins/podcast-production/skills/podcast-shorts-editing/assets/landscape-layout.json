@@ -1,0 +1,14 @@
+{
+  "name": "editorial-rail-landscape",
+  "canvas": {"width": 1920, "height": 1080},
+  "palette": {"background": [0.055, 0.052, 0.050], "text": [0.965, 0.950, 0.915], "accent": [1.0, 0.345, 0.080], "muted": [0.660, 0.650, 0.620]},
+  "fonts": {"headline": "PlusJakartaSans-SemiBold", "headline_weight": 600, "metadata": "IBMPlexMono"},
+  "header": {"height": 96, "series_baseline": [64, 60], "series_size": 24, "topic_baseline": [528, 60], "topic_size": 22, "logo_center": [1736, 49], "logo_width": 240},
+  "picture": {"rect": [480, 96, 1440, 810], "center": [1200, 501], "source_dimensions": [1920, 1080], "source_scale_percent": 75, "fit": "contain-full-landscape"},
+  "rail": {"width": 480, "text_x": 64, "text_max_width": 352, "chapter_baseline": [64, 169], "chapter_size": 23, "title_baseline": [64, 250], "opening_size_range": [46, 52], "beat_size": 46, "title_leading_multiplier": 1.24, "title_max_rows": 5, "accent_rect": [64, 548, 144, 4], "context_baseline": [64, 602], "context_size": 27, "context_max_rows": 4, "speaker_baseline": [64, 822], "speaker_size": 23, "affiliation_baseline": [64, 858], "affiliation_size": 20},
+  "captions": {"region": [480, 906, 1440, 174], "baseline": [528, 969], "font_size": 58, "leading_multiplier": 1.24, "max_width": 1296, "max_rows": 2, "reveal": "preserve-approved-word-onsets-and-hold-selector-keys"},
+  "progress": {"rect": [64, 970, 352, 3]},
+  "footer": {"baseline": [64, 1026], "font_size": 17},
+  "motion": {"beat_rise_pixels": 12, "beat_rise_frames": 5, "ending_ease": "easeOut"},
+  "scope": "Measured example for adapting an approved portrait edit; refit to each recording and inspect native bounds and motion. Durations, speakers, words, timing, claims and brand assets come from the current task."
+}

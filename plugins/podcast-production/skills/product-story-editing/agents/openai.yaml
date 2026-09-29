@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Story Editing"
+  short_description: "Shape interviews into grounded product stories"
+  default_prompt: "Use $product-story-editing to shape this recorded interview into a coherent product story with source-linked selects and a reviewable rough cut."

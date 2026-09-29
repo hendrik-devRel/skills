@@ -1,0 +1,11 @@
+{
+  "name": "better-typography",
+  "version": "1.0.0",
+  "description": "Web typography from choosing fonts to spacing, wrapping and accessibility. Reviews frontend code for type scale, heading hierarchy, line-height, letter-spacing, measure, wrapping, truncation, underlines, tabular numbers, variable fonts and OpenType features, and expresses every fix in the project's own styling system.",
+  "author": {
+    "name": "Hendrik (hendrik-devRel)"
+  },
+  "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/better-typography",
+  "license": "MIT",
+  "keywords": ["typography", "fonts", "css", "tailwind", "accessibility", "frontend", "design"]
+}

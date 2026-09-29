@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "source": "Native AE text.measure baseline advances captured in pilot layout-spec.json; no invented widths. Remeasure for new text/font/style.",
+  "measurements": {
+    "01 • 01 • No": {
+      "signature": "9cb20e30aa7bc66e52d7b8d63d68935ef145cec7cd07ea3d40721143208cf4d4",
+      "advance": 161.47200012207,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "01 • 02 • one": {
+      "signature": "52b6c4bfe9de8d97f845c47d44c044a554e6b2c64529efefcce3abb9ec7ac51a",
+      "advance": 214.832000732422,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "01 • 03 • model": {
+      "signature": "7a7f7716f10c272122d1f129da97f42c9e037f65332d01727dce3ce7c577dbd2",
+      "advance": 359.600006103516,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "01 • 04 • had": {
+      "signature": "291ae299fc516469aea4f55f5db94941077d41d404f9df3eec0f5a186d47a048",
+      "advance": 158.399993896484,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "01 • 05 • ever": {
+      "signature": "69647508eb88cb5036a7b56c1e7aec8c96d73b448a738faac6bd5e1ca5b62c66",
+      "advance": 211.199996948242,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "01 • 06 • really": {
+      "signature": "910e6a37d251bfb0a39103da3cb8c56532fa1c262fb4c9b43acb119604bc4a64",
+      "advance": 316.799987792969,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "01 • 07 • passed": {
+      "signature": "f99f2604f9d780a511ecd2b34b7d25f961ff1ab979bfb33cbbb8473fed7a5ae8",
+      "advance": 583.02001953125,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "01 • 08 • the": {
+      "signature": "1108b5e1185ee6f377ffb545807d04d95f562cefe08979cb0a9de62a1fc6853e",
+      "advance": 263.055999755859,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "01 • 09 • CAD": {
+      "signature": "9330b9ccc19e2a928cca0671d08eb4e3ba521dffe8d7e63a14b8d028c97f86f6",
+      "advance": 463.679992675781,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "01 • 10 • BENCH": {
+      "signature": "080f42dbd89c8386fe14f8aa3506a36495b803cd620f7345b60148f02e35d69a",
+      "advance": 743.399963378906,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "02 • 11 • until": {
+      "signature": "3ba111b7a4150d3f33d309d65cc314079c119f8386cb269b90fab78986189e20",
+      "advance": 288,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "02 • 12 • ASTRA": {
+      "signature": "121b2387f7b891474dae4bcf258a5bb05a12a113509f28f8ca6adb53701f0b07",
+      "advance": 827.406005859375,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "02 • 13 • just": {
+      "signature": "f3ef458e0004e482e628318594e28438983af801bd0be3649caa0fd7db660235",
+      "advance": 216.751998901367,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "02 • 14 • blew": {
+      "signature": "35f94a6af9a556c7cf2d45178ed8602779d840b54f3ce411e53c3970be19df4d",
+      "advance": 295.492004394531,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "02 • 15 • it": {
+      "signature": "45f39436fc61d248c9ed03383f4d9deda567c9d39aaf7c8ab2fc2238bdb45553",
+      "advance": 80.5999984741211,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "02 • 16 • away.": {
+      "signature": "0b15608999f958ce72bb64b3c6ac856aea96ed08dd0750ca880e7c0ba798a332",
+      "advance": 355.507995605469,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "03 • 17 • So": {
+      "signature": "61e802516577eb52d00cc6d0cdbd584c669b2fab372e8fd956b34f6d0c6c15ed",
+      "advance": 145.600006103516,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "03 • 18 • prompt": {
+      "signature": "b5cd47c78559b78acf7bbe3617ef897f094896a012e28dc392a8c886ab135f87",
+      "advance": 410.928009033203,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "03 • 19 • ENGINEERING": {
+      "signature": "f000b56fcc2088718cf9e776c93587121f16ebd3c0488078717de0bfb02aa293",
+      "advance": 1354.1220703125,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "03 • 20 • still": {
+      "signature": "10052a3bfe34ccf0e3c39d5baf6722fb89df2ced0bc01bb4346457c4a3f60e98",
+      "advance": 294,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "03 • 21 • plays": {
+      "signature": "409abb6716b762fe07d535137bfd7088857e17ec3c32ed36260c6adbd306c1ab",
+      "advance": 294,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "03 • 22 • a": {
+      "signature": "c9ad4647eb9c84e5b45c0362165cb63067e6701a500efd29dcef82fbcdaa8717",
+      "advance": 58.7999992370605,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "03 • 23 • role,": {
+      "signature": "98f4d6100a85c69bba20a59aff4114944be3d88016d04b2c427396f3794bb82e",
+      "advance": 294,
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular"
+    },
+    "03 • 24 • you": {
+      "signature": "f9b908e79e1e3e106e233872c1e8656c2dc379598eaefb246bacd650db94a6fc",
+      "advance": 215.760009765625,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "03 • 25 • say?": {
+      "signature": "915fb1eea22278cf2bf3de8cd9b45d250f119f7b620edb7315b8295952e344d4",
+      "advance": 265.679992675781,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    },
+    "04 • 26 • Definitely.": {
+      "signature": "28b4035c08725b5fadeda2fe22eab105d43d399d828aea62433e8181911c6469",
+      "advance": 999.900024414062,
+      "fontFamily": "Plus Jakarta Sans",
+      "fontStyle": "SemiBold"
+    }
+  }
+}

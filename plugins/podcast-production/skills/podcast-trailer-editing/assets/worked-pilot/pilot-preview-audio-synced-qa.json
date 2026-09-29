@@ -1,0 +1,44 @@
+{
+  "source": "AF-Kinetic-Pilot-v01-PREVIEW-SYNCED.mp4",
+  "reference_samples_48k": 480480,
+  "preview_samples_48k": 481280,
+  "windows": [
+    {
+      "start_seconds": 0.25,
+      "end_seconds": 1.5,
+      "lag_samples_48k": 0,
+      "correlation": 0.9997873373121104
+    },
+    {
+      "start_seconds": 2,
+      "end_seconds": 3,
+      "lag_samples_48k": 0,
+      "correlation": 0.9989525853935537
+    },
+    {
+      "start_seconds": 3.7,
+      "end_seconds": 4.6,
+      "lag_samples_48k": 0,
+      "correlation": 0.9998340173066277
+    },
+    {
+      "start_seconds": 5.3,
+      "end_seconds": 6.4,
+      "lag_samples_48k": 0,
+      "correlation": 0.9999467359528728
+    },
+    {
+      "start_seconds": 7.2,
+      "end_seconds": 8.3,
+      "lag_samples_48k": 0,
+      "correlation": 0.999595544233966
+    },
+    {
+      "start_seconds": 8.5,
+      "end_seconds": 9.5,
+      "lag_samples_48k": 0,
+      "correlation": 0.9998056115601952
+    }
+  ],
+  "status": "PASS_ZERO_LAG"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "podcast-production",
+  "version": "1.0.0",
+  "description": "Eight skills for producing multicamera podcasts in Adobe Premiere Pro and After Effects: full-episode editing, config-driven multicam XML builds, opening trailers with kinetic typography, standalone Shorts, product-story interview cuts, speech audio restoration, and connection guides for the Premiere Pro and After Effects MCP servers.",
+  "author": {
+    "name": "Hendrik (hendrik-devRel)"
+  },
+  "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/podcast-production",
+  "license": "MIT",
+  "keywords": ["podcast", "premiere-pro", "after-effects", "multicam", "video-editing", "trailer", "shorts", "kinetic-typography", "audio-restoration", "mcp"]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "purpose": "Adaptable layout specification derived from the user-approved eight-Short portrait treatment; not an executable AE importer or universal mandatory default.",
+  "coordinate_conventions": {
+    "units": "pixels",
+    "rect": "[left, top, width, height]",
+    "text_position": "AE point-text anchor/baseline position, not glyph bounding-box top-left",
+    "text_anchor": [0, 0],
+    "colors": "normalized RGB; hex values are rounded references"
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "pixel_aspect": 1,
+    "example_fps": { "numerator": 30000, "denominator": 1001 },
+    "fps_note": "Match the verified source/edit timebase; do not convert an unrelated recording merely to use this example."
+  },
+  "palette": {
+    "background": { "rgb": [0.055, 0.052, 0.05], "hex_approx": "#0E0D0D" },
+    "text": { "rgb": [0.965, 0.95, 0.915], "hex_approx": "#F6F2E9" },
+    "accent": { "rgb": [1, 0.345, 0.08], "hex_approx": "#FF5814" },
+    "muted": { "rgb": [0.66, 0.65, 0.62], "hex_approx": "#A8A69E" }
+  },
+  "typography": {
+    "main_postscript_name": "PlusJakartaSans-SemiBold",
+    "main_variable_axes": { "wght": 600 },
+    "mono_postscript_name": "IBMPlexMono",
+    "alignment": "left",
+    "tracking": 0,
+    "stroke": false,
+    "auto_leading": false,
+    "leading_multiplier": 1.24,
+    "font_resolution_note": "Verify actual installed family/style and native bounds; fonts are not bundled."
+  },
+  "elements": {
+    "background": { "rect": [0, 0, 1080, 1920], "native_type": "solid", "color": "background" },
+    "series": { "position": [72, 115], "font": "mono", "font_size": 24, "color": "text" },
+    "logo": { "center": [827, 103], "target_display_dimensions": [215.2, 31.3], "fit": "contain", "note": "Use authorized current brand asset, preserving aspect; target comes from a 2152x313 example rendered at 10%." },
+    "opening_heading": { "position": [72, 204], "font": "main", "font_size_start": 68, "max_line_width": 880, "fit_step": 1, "suggested_rows": 2, "color": "text", "animation": "none" },
+    "beat_heading": { "position": [72, 204], "font": "main", "font_size_start": 53, "max_line_width": 880, "fit_step": 1, "observed_smallest_size": 49, "color": "text", "animation": "beat_arrival" },
+    "context": { "position": [72, 266], "font": "main", "font_size_start": 26, "max_line_width": 880, "fit_step": 1, "color": "muted", "animation": "beat_arrival", "optional": true },
+    "heading_accent": { "origin": [72, 300], "height": 5, "opening_width": 120, "subsequent_width_expression": "120 + beat_index * 76", "native_type": "solid", "color": "accent" },
+    "picture_panel": { "rect": [0, 330, 1080, 1000], "nested_layer_center": [540, 830], "clip_to_precomp": true, "authored_text_inside": false },
+    "speaker_label": { "position": [76, 1385], "font": "mono", "font_size": 25, "color": "muted", "content_pattern": "NAME / ORGANIZATION OR ROLE", "timing": "verified speaking turn" },
+    "captions": { "position": [76, 1476], "font": "main", "font_size_start": 60, "max_line_width": 874, "max_rows": 2, "fit_step": 2, "color": "text", "emphasis_color": "accent" },
+    "progress": { "rect": [76, 1630, 858, 3], "anchor": [0, 1.5], "position": [76, 1631.5], "native_type": "solid", "color": "accent", "scale_start": [0, 100], "scale_end": [100, 100], "end_at": "last frame", "interpolation": "linear" },
+    "footer": { "position": [76, 1700], "font": "mono", "font_size": 21, "color": "muted", "content_pattern": "EPISODE / FULL CONVERSATION CUE" }
+  },
+  "animation": {
+    "beat_arrival": { "position_offset_start": [0, 12], "position_offset_end": [0, 0], "duration_frames": 5, "arrival_easing": "easeOut" },
+    "word_reveal": { "native_animator": "Spoken word reveal", "opacity": 0, "selector_basis": "words", "selector_smoothness": 0, "range_end_percent": 100, "range_start_values": "100 * cumulative revealed tokens / total phrase tokens", "onset_quantization": "ceil to next frame", "keyframe_interpolation": "hold", "keep_phrase_layout_fixed": true }
+  },
+  "caption_grouping_example": {
+    "max_word_entries": 7,
+    "split_gap_seconds": 0.6,
+    "punctuation_close_min_entries": 3,
+    "last_word_hold_seconds": 0.3,
+    "minimum_phrase_seconds_where_available": 0.2,
+    "bound_end_by": ["next phrase onset", "clip end"],
+    "manual_boundary_overrides": true,
+    "emphasis_vocabulary": "Choose verified meaningful words and numbers for each clip; no fixed episode-specific list."
+  },
+  "camera_panel_examples": {
+    "scope": "Source-dependent examples measured for 1920x1080 graded precomps; adapt to actual people, gestures and source resolution.",
+    "panel_dimensions": [1080, 1000],
+    "source_dimensions": [1920, 1080],
+    "source_anchor": [960, 540],
+    "first_single": { "position": [540, 500], "scale_percent": [92.5925925925926, 92.5925925925926] },
+    "second_single": { "position": [632.5925925925926, 500], "scale_percent": [92.5925925925926, 92.5925925925926] },
+    "moderator_from_wide": { "position": [555.5, 345], "scale_percent": [155, 155], "requires_separate_crop_proof": true },
+    "shared_wide": { "position": [540, 500], "scale_percent": [56.25, 56.25], "display_dimensions": [1080, 607.5], "opaque_background_rect": [0, 0, 1080, 1000], "background_color": "background" }
+  },
+  "edit_structure_examples": {
+    "one_final_comp_per_short": true,
+    "reusable_graded_angle_precomps": true,
+    "independent_disabled_alternate_cameras_per_span": true,
+    "camera_audio_enabled": false,
+    "set_source_start_before_final_trims": true,
+    "source_span_wide_cover_seconds": 0.8,
+    "speaker_handoff_wide_seconds_each_side": 0.35,
+    "cover_note": "Use verified synchronized wide from the owning source span; constrain ranges to available kept material and adjust editorially.",
+    "speaker_turn_audio_label_when_shared": "SHARED MIX"
+  },
+  "validation_notes": [
+    "Measure native text after font resolution; estimated wrapping alone is insufficient.",
+    "Render a representative native motion proof before propagating the layout.",
+    "Inspect actual joins and handoffs before, during and after wide inserts.",
+    "Inspect platform UI overlays at phone size; these coordinates are not a universal safe-area guarantee."
+  ]
+}
