@@ -2,12 +2,13 @@
 
 Agent skills packaged as a [Claude Code](https://claude.com/claude-code) plugin marketplace. Every skill is a plain `SKILL.md` folder, so it also works in any tool that reads the Agent Skills format (Codex, `.agents/skills/`, and others).
 
-Two plugins are published here:
+Three plugins are published here:
 
 | Plugin | Skills | Use it for |
 | --- | --- | --- |
 | `better-typography` | 1 | Reviewing and fixing web typography in frontend code |
 | `podcast-production` | 8 | Editing multicamera podcasts, trailers and Shorts in Adobe Premiere Pro and After Effects |
+| `local-blog-review` | 1 | Reviewing a blog article on localhost and leaving comments for the agent to work through |
 
 ## better-typography
 
@@ -42,12 +43,28 @@ A suite of eight skills that grew out of producing a three-camera podcast. Episo
 
 `podcast-trailer-editing/assets/worked-pilot/` contains a compact copy of one finished ten-second pilot: an editable After Effects project, its background video, native audio, rendered preview and layout measurements. About 50 MB in total. It is a worked example to open and relink, not a template. Plus Jakarta Sans SemiBold and IBM Plex Mono must be installed for the AEP to render as designed.
 
+## local-blog-review
+
+A review loop that stays on your machine. The skill runs your site's dev server behind a small local proxy that adds a commenting layer. You read the rendered article, select text or Option-click a paragraph, table or figure, and leave a comment. Comments are saved to `article-review/comments.json` with the page, the section heading and the exact words they point to. Ask the agent to work through them: it finds each passage in the source, makes the change, marks the comment done and writes a short reply that appears under your comment in the browser.
+
+Nothing is added to the website's repository, so review tooling cannot ship to production. The proxy only accepts connections from your own machine.
+
+Triggers on reviewing, proofreading, annotating or leaving feedback on a blog post, article draft, docs page or PR preview, on asking for a local or localhost review, and on asking the agent to pick up or implement review comments.
+
+### Requirements
+
+- Node 18 or newer. The server and the commenting layer have no dependencies.
+- A website you can run locally with a dev command. Next.js sites work out of the box; for anything else, set the command in `review.config.json`.
+- `git`, when you review an isolated copy of a branch. `scripts/setup.sh` creates it as a git worktree.
+- A current Chrome, Edge or Safari for the highlights.
+
 ## Install in Claude Code
 
 ```
 /plugin marketplace add hendrik-devRel/skills
 /plugin install better-typography@hendrik-skills
 /plugin install podcast-production@hendrik-skills
+/plugin install local-blog-review@hendrik-skills
 ```
 
 ## Install anywhere else
@@ -58,6 +75,7 @@ Copy a skill folder into your agent's skills directory:
 git clone https://github.com/hendrik-devRel/skills.git
 cp -r skills/plugins/better-typography/skills/better-typography ~/.claude/skills/
 cp -r skills/plugins/podcast-production/skills/* ~/.codex/skills/
+cp -r skills/plugins/local-blog-review/skills/local-blog-review ~/.claude/skills/
 ```
 
 The podcast skills link to each other with relative paths, so keep them side by side in the same skills directory.
@@ -82,6 +100,9 @@ plugins/
       audio-restoration/               SKILL.md, references/, scripts/
       premiere-pro-mcp/                SKILL.md
       use-after-effects/               SKILL.md
+  local-blog-review/
+    .claude-plugin/plugin.json
+    skills/local-blog-review/          SKILL.md, scripts/
 ```
 
 ## Running the bundled tests
@@ -95,4 +116,4 @@ python3 -m unittest discover -s scripts -p 'test_*.py' -v
 
 ## Provenance and license
 
-MIT, see `LICENSE`. `better-typography` originated in CodeRabbit's content-studio repository. The podcast skills were developed for The Merge podcast by CodeRabbit. `premiere-pro-mcp` and `use-after-effects` are copied from their upstream projects; see `plugins/podcast-production/THIRD-PARTY-NOTICES.md`.
+MIT, see `LICENSE`. `better-typography` originated in CodeRabbit's content-studio repository. The podcast skills were developed for The Merge podcast by CodeRabbit. `local-blog-review` was built for reviewing CodeRabbit blog articles. `premiere-pro-mcp` and `use-after-effects` are copied from their upstream projects; see `plugins/podcast-production/THIRD-PARTY-NOTICES.md`.

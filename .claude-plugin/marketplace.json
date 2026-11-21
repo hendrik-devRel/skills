@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "hendrik-skills",
-  "description": "Agent skills by Hendrik: web typography review, and a podcast production suite for Adobe Premiere Pro and After Effects.",
+  "description": "Agent skills by Hendrik: web typography review, a podcast production suite for Adobe Premiere Pro and After Effects, and local blog review with comments.",
   "owner": {
     "name": "Hendrik (hendrik-devRel)"
   },
@@ -25,6 +25,16 @@
       "category": "productivity",
       "source": "./plugins/podcast-production",
       "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/podcast-production"
+    },
+    {
+      "name": "local-blog-review",
+      "description": "Review a blog article or website page on localhost. Serves the site through a local proxy with a commenting layer: select text or click a block to leave comments, which are saved to a JSON file for the agent to work through and answer.",
+      "author": {
+        "name": "Hendrik (hendrik-devRel)"
+      },
+      "category": "productivity",
+      "source": "./plugins/local-blog-review",
+      "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/local-blog-review"
     }
   ]
 }
