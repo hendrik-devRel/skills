@@ -1,0 +1,11 @@
+{
+  "name": "local-blog-review",
+  "version": "1.0.0",
+  "description": "Review a blog article or website page on localhost. Serves the site through a local proxy with a commenting layer: select text or click a block to leave comments, which are saved to a JSON file for the agent to work through and answer.",
+  "author": {
+    "name": "Hendrik (hendrik-devRel)"
+  },
+  "homepage": "https://github.com/hendrik-devRel/skills/tree/main/plugins/local-blog-review",
+  "license": "MIT",
+  "keywords": ["review", "blog", "comments", "annotation", "editing", "content", "localhost", "proofreading"]
+}
